@@ -1,4 +1,4 @@
-var n;
+
 function setup() {
   createCanvas( windowWidth , windowHeight );
   
@@ -6,10 +6,12 @@ function setup() {
   noStroke();
   
 }
+var n;
 function draw() {
  
  loop(
- n = random(50 , 100);
+ 
+   n = random(50 , 100);
   ellipse( mouseX , mouseY , n , n );
  )
   
