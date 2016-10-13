@@ -9,11 +9,10 @@ function setup() {
 var n;
 function draw() {
  
- loop(
+ loop(n = random(50 , 100));
+ellipse( mouseX , mouseY , n , n );
  
-   n = random(50 , 100);
-  ellipse( mouseX , mouseY , n , n );
- )
+ 
   
 
 }
