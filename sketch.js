@@ -2,7 +2,7 @@
 function setup() {
   createCanvas( windowWidth , windowHeight );
   n = random(50,255)
-  fill ( n , n , n , 10 ); 
+  fill ( 0 , n , 0 , 10 ); 
   noStroke();
   
 }
