@@ -8,7 +8,8 @@ function setup() {
 }
 var n;
 function draw() {
-ellipse( mouseX , mouseY , 50 , 50 );
+ loop( n = random( 50 ,100););
+ellipse( mouseX , mouseY , n , n);
   
  
  
