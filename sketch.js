@@ -11,7 +11,7 @@ function draw() {
  loop(
  n = random(50 , 100);
   ellipse( mouseX , mouseY , n , n );
- );
+ )
   
 
 }
