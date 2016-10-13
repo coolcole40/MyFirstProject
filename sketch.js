@@ -1,15 +1,13 @@
 
 function setup() {
-  createCanvas( windowWidth , windowHeight );
-  n = random(50, 100)
-  fill ( n , n , n , 10 ); 
+  createCanvas( windowWidth , windowHeight ); 
   noStroke();
-  
+  fill(0 , 255 , 255);
 }
 var n;
 function draw() {
- 
-ellipse( mouseX , mouseY , 100 , 100 );
+loop(n = random(50,100)); 
+ellipse( mouseX , mouseY , n , n );
   
  
  
