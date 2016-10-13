@@ -1,14 +1,16 @@
 
-
+var n;
 function setup() {
   createCanvas( windowWidth , windowHeight ); 
+  n = random(0 , 255);
+  fill( 0 , 255 , n);
   noStroke();
   
 }
-var n;
+
 function draw() {
 ellipse( mouseX , mouseY , n , n);
-  fill( 0 , 255 , 255);
+  
  
  
   
