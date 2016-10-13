@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-ellipse( mouseX , mouseY , n , n);
+ellipse( mouseX , mouseY , 50 , 50);
   
  
  
