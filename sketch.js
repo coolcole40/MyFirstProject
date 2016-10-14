@@ -4,6 +4,7 @@ var r;
 function setup() {
   createCanvas( windowWidth , windowHeight ); 
   noStroke();
+  fill ( 0 , 255 , 0);
   
 }
 
