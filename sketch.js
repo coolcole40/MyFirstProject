@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
  
-    n = random(10 , 150);   
+    n = random(10 , 80);   
   ellipse( mouseX , mouseY , n , n);
  
  
