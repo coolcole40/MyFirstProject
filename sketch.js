@@ -1,8 +1,5 @@
-var ballX=1000;
-var ballY=1000;
-var ballSPD=13;
-var ballSPD2=12;
-
+var v2 = createVector(40,50)
+var v1 = createVector(40,50)
 function setup() {
   createCanvas( windowWidth , windowHeight );
   
@@ -14,17 +11,17 @@ function draw() {
   var w = random(50,255);
   var e = random(50,255);
   fill(10,10,255);
-  ellipse(ballX,ballY,100,100);
-  if(ballX < 0){
+  ellipse(v1.x,v1.y,100,100);
+  if(v1.x < 0){
     ballSPD = 13;
   }
-  if(ballX > width){
+  if(v1.x > width){
     ballSPD =-13;
   }
-  if(ballY > windowHeight){
+  if(v1.y > windowHeight){
     ballSPD2 = -12;
   }
-  if(ballY < 0){
+  if(v1.y < 0){
     ballSPD2 = 12;
   }
   
